@@ -1,0 +1,30 @@
+{
+  "name": "h",
+  "version": "1.0.0",
+  "description": "Hachakathon",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fawn": "^2.1.5",
+    "joi": "^17.6.0",
+    "mongodb": "^4.2.1",
+    "mongoose": "^5.1.7",
+    "nodemon": "^2.0.15",
+    "swagger": "^0.7.5",
+    "swagger-ui-express": "^4.3.0",
+    "winston": "^3.6.0",
+    "winston-mongodb": "^5.0.7",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd erver && nodemon server ",
+    "front": "cd client && npm start",
+    "start": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "G5",
+  "license": "ISC"
+}

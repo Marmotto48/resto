@@ -1,0 +1,14 @@
+.tables .container {
+  width: 350px;
+  height: 300px;
+  /* background-color: aqua; */
+}
+
+.tables .container .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tables .container .tabs img{ 
+    cursor: pointer;
+}
