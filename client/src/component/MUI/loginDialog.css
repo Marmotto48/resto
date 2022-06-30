@@ -1,0 +1,29 @@
+.dialog-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.dialog-img {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dialog-img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  color: rgb(105, 0, 190);
+}
+
+.dialog-img span {
+  margin-top: 50px;
+  text-align: center;
+}
+/***/
